@@ -39,3 +39,8 @@ dependencies {
 task wrapper(type: Wrapper) {
     gradleVersion = '2.7'
 }
+
+// needed task for heroku deployment
+task stage {
+  dependsOn build
+}

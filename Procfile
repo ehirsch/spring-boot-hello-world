@@ -1,0 +1,1 @@
+web: java -Dserver.prot=$PORT -jar build/libs/spring-boot-hello-world-0.0.1-SNAPSHOT.jar
