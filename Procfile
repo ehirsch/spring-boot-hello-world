@@ -1,1 +1,1 @@
-web: java -Xmx500m -Dserver.port=$PORT -jar build/libs/spring-boot-hello-world-0.0.1-SNAPSHOT.jar
+web: java -Xmx128m -Dserver.port=$PORT -jar build/libs/spring-boot-hello-world-0.0.1-SNAPSHOT.jar
